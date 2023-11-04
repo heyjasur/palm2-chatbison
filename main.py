@@ -1,5 +1,5 @@
-!pip install google-cloud-aiplatform --upgrade
-!pip install streamlit
+pip install google-cloud-aiplatform --upgrade
+pip install streamlit
 
 import streamlit as st
 import vertexai
