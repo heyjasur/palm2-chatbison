@@ -1,6 +1,7 @@
 import subprocess
 
 subprocess.run(['pip', 'install', 'google-cloud-aiplatform', '--upgrade'])
+subprocess.run(['pip', 'install', 'vertex-ai'])
 
 import streamlit as st
 import vertexai
