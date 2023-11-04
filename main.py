@@ -1,5 +1,6 @@
-pip install google-cloud-aiplatform --upgrade
-pip install streamlit
+import subprocess
+
+subprocess.run(['pip', 'install', 'google-cloud-aiplatform', '--upgrade'])
 
 import streamlit as st
 import vertexai
